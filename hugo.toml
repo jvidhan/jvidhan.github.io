@@ -1,0 +1,8 @@
+baseURL = 'https://jvidhan.github.io/'
+locale = 'en-us'
+title = 'Security Notes'
+theme = "ananke"
+
+[params]
+  description = 'Reverse engineering and security research'
+  author = 'jvidhan'
