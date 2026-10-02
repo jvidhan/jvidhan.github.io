@@ -1,0 +1,111 @@
+/* Post title - compact and professional */
+.post-header .post-title {
+  font-size: 1.5rem !important;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 0.5rem !important;
+  letter-spacing: -0.01em;
+}
+
+/* Post header - tighter spacing */
+.post-header {
+  margin-bottom: 1.5rem;
+}
+
+/* Description/subtitle under title */
+.post-description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-top: 0.25rem;
+}
+
+/* Metadata - compact and de-emphasized */
+.post-meta {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+/* Content area - LARGER for readability */
+.post-content {
+  font-size: 1.05rem;  /* UP from 0.95rem */
+  line-height: 1.75;   /* UP from 1.7 */
+}
+
+/* Section headings */
+.post-content h2 {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+.post-content h3 {
+  font-size: 1.1rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+/* Monospace for code/functions */
+code, pre, pre code, kbd, samp {
+  font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas,
+               "Liberation Mono", monospace;
+  font-size: 0.9rem;
+}
+
+/* Inline code with background */
+code:not(pre code) {
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+/* Code blocks */
+pre {
+  padding: 1.25rem;
+  border-left: 3px solid var(--primary);
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Tables */
+table {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 1.5rem 0;
+}
+
+/* Links */
+a {
+  color: #0066cc;           /* Make it blue */
+  text-decoration: none;      /* No subtle underline */
+}
+
+a:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+/* Lists */
+ul, ol {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin: 1rem 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--primary);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-size: 1rem;
+  line-height: 1.7;
+  font-style: italic;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Security Notes</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Security Notes</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CVE-2026-28912: MacOS PackageKit Symlink Following Privilege Escalation</title>
+      <link>http://localhost:1313/posts/cve-2026-28912/</link>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cve-2026-28912/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In 2026, Apple patched &lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2026-28912&#34;&gt;CVE-2026-28912&lt;/a&gt;, a vulnerability in macOS PackageKit that allowed a malicious .pkg to write files as root to paths it never declared. The advisory was brief: &amp;ldquo;A user may be able to elevate privileges.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The original discovery is credited to &lt;a href=&#34;https://twitter.com/MacejkoMoravec&#34;&gt;Matej Moravec&lt;/a&gt;(@MacejkoMoravec).&lt;/p&gt;
+&lt;p&gt;What the advisory didn&amp;rsquo;t say was how it worked. No public technical writeup existed. So I sat down with the 26.4 and 26.6 binaries, opened Hopper, and reverse-engineered it myself. This post is the result.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
